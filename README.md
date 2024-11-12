@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on **Trackmania AI**
+- 🔭 I’m currently working on [Trackmania AI](https://github.com/Aromal-m-b/TrackMania)
 
 - 🌱 I’m currently learning **Pytorch**
 
@@ -15,7 +15,8 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/aromal m b" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="aromal m b" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/aromal-mb-1b2136255/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/aromal-mb-1b2136255/" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/https://leetcode.com/u/aromal_m_b/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/aromal_m_b/" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
