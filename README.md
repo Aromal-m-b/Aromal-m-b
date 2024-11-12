@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on [Trackmania AI](https://github.com/Aromal-m-b/TrackMania)
 
-- 🌱 I’m currently learning **Pytorch**
+- 🌱 I’m currently learning **PyTorch**
 
 - 📫 How to reach me **aromalmb1227@gmail.com**
 
