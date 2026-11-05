@@ -26,15 +26,11 @@ def build_svg(photo_b64, color):
   <defs>
     <!-- single-colour (monochrome) look: luminance -> one hue -->
     <filter id="mono" color-interpolation-filters="sRGB">
-      <feColorMatrix type="matrix" values="
-        {r:.3f} {r:.3f} {r:.3f} 0 0
-        {g:.3f} {g:.3f} {g:.3f} 0 0
-        {b:.3f} {b:.3f} {b:.3f} 0 0
-        0 0 0 1 0"/>
+      <feColorMatrix type="saturate" values="0"/>
       <feComponentTransfer>
-        <feFuncR type="linear" slope="1.5" intercept="-0.1"/>
-        <feFuncG type="linear" slope="1.5" intercept="-0.1"/>
-        <feFuncB type="linear" slope="1.5" intercept="-0.1"/>
+        <feFuncR type="linear" slope="{r * 1.15:.3f}" intercept="0"/>
+        <feFuncG type="linear" slope="{g * 1.15:.3f}" intercept="0"/>
+        <feFuncB type="linear" slope="{b * 1.15:.3f}" intercept="0"/>
       </feComponentTransfer>
     </filter>
 
