@@ -22,9 +22,19 @@ Agentic AI · Computer Vision · End-to-end ML
 
 I’m an AI/ML Engineer based in Kerala, India. I build practical applications with machine learning, computer vision, and LLM-powered workflows—from data preparation and evaluation through APIs and deployment.
 
-### `02 / CURRENT TOOLBOX`
+### `02 / STACK SIGNALS`
 
-`Python` &nbsp; `PyTorch` &nbsp; `OpenCV` &nbsp; `LangGraph` &nbsp; `LangChain` &nbsp; `FastAPI` &nbsp; `PostgreSQL` &nbsp; `Docker` &nbsp; `AWS`
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,fastapi,postgres,docker,aws,git,sklearn&theme=dark&perline=5" alt="Python, PyTorch, TensorFlow, OpenCV, FastAPI, PostgreSQL, Docker, AWS, Git, and scikit-learn" />
+
+<br />
+
+<img src="https://img.shields.io/badge/LangChain-Agents-FFB128?style=for-the-badge&labelColor=1a1917" alt="LangChain agents" />
+<img src="https://img.shields.io/badge/LangGraph-Workflows-FFB128?style=for-the-badge&labelColor=1a1917" alt="LangGraph workflows" />
+<img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-FFB128?style=for-the-badge&labelColor=1a1917" alt="Computer Vision with OpenCV" />
+
+</div>
 
 ### `03 / SELECTED BUILDS`
 
@@ -37,7 +47,15 @@ I’m an AI/ML Engineer based in Kerala, India. I build practical applications w
 | [Mugiwara](https://github.com/Aromal-m-b/Mugiwara) | Early learning screening with agentic assessment. |
 | [Pharma App](https://github.com/Aromal-m-b/Pharma-App) | Structured pharmaceutical complaint intake. |
 
-### `04 / CONTRIBUTION SIGNAL`
+### `04 / LIVE ACTIVITY`
+
+Recent public GitHub events, refreshed automatically throughout the day.
+
+<!--START_SECTION:activity-->
+> Syncing recent public activity…
+<!--END_SECTION:activity-->
+
+### `05 / CONTRIBUTION SIGNAL`
 
 <div align="center">
 
@@ -46,7 +64,7 @@ I’m an AI/ML Engineer based in Kerala, India. I build practical applications w
 
 </div>
 
-### `05 / FIND ME`
+### `06 / FIND ME`
 
 [Portfolio](https://portfolio-delta-five-46.vercel.app/) &nbsp;·&nbsp; [GitHub](https://github.com/Aromal-m-b) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/aromal-mb/) &nbsp;·&nbsp; [Email](mailto:aromalmb1227@gmail.com)
 
