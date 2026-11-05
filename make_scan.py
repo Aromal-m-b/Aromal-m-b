@@ -101,7 +101,7 @@ def build_svg(photo_b64, color):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("photo")
-    ap.add_argument("--color", default="00ff9c", help="hex accent colour, no #")
+    ap.add_argument("--color", default="ffb128", help="hex accent colour, no #")
     ap.add_argument("--out", default="assets/scan-profile.svg")
     a = ap.parse_args()
 

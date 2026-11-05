@@ -1,88 +1,53 @@
-<!-- ───────────────  HEADER  ─────────────── -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=00FF9C&background=1A1A1A00&center=true&vCenter=true&width=640&lines=Hi%2C+I'm+Aromal+MB+%F0%9F%91%8B;AI+%2F+ML+Engineer+%E2%80%A2+Kerala%2C+India;Agentic+AI+%E2%80%A2+Computer+Vision+%E2%80%A2+Voice" alt="Typing intro" />
+<img src="./assets/scan-profile.svg" width="150" alt="Aromal MB — amber scan portrait" />
 
-<br/>
+<br />
 
-<img src="assets/scan-profile.svg" width="300" alt="Aromal MB - digital scan" />
+<samp>PROFILE SCAN // AROMAL MB // AI / ML ENGINEER</samp>
 
-<br/><br/>
+# Aromal MB
 
-<a href="https://portfolio-delta-five-46.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-aromal--mb-00FF9C?style=for-the-badge&labelColor=1a1a1a" alt="Portfolio"/></a>
-<img src="https://komarev.com/ghpvc/?username=Aromal-m-b&label=PROFILE+VIEWS&color=00ff9c&style=for-the-badge&labelColor=1a1a1a" alt="Profile views"/>
+### I build intelligent systems.
+
+Agentic AI · Computer Vision · End-to-end ML
+
+[Portfolio](https://portfolio-delta-five-46.vercel.app/) &nbsp;·&nbsp; [Projects](https://github.com/Aromal-m-b/portfolio) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/aromal-mb/)
 
 </div>
 
 ---
 
-### `> whoami`
+### `01 / ABOUT`
 
-```text
-name      : Aromal MB
-role      : AI / ML Engineer
-location  : Kerala, India
-focus     : Agentic AI · Computer Vision · Voice Assistants · End-to-End ML
-status    : building things that see, listen and decide
-```
+I’m an AI/ML Engineer based in Kerala, India. I build practical applications with machine learning, computer vision, and LLM-powered workflows—from data preparation and evaluation through APIs and deployment.
 
-### `> stack --list`
+### `02 / CURRENT TOOLBOX`
 
-<div align="center">
+`Python` &nbsp; `PyTorch` &nbsp; `OpenCV` &nbsp; `LangGraph` &nbsp; `LangChain` &nbsp; `FastAPI` &nbsp; `PostgreSQL` &nbsp; `Docker` &nbsp; `AWS`
 
-![Python](https://img.shields.io/badge/Python-1a1a1a?style=for-the-badge&logo=python&logoColor=00FF9C)
-![PyTorch](https://img.shields.io/badge/PyTorch-1a1a1a?style=for-the-badge&logo=pytorch&logoColor=00FF9C)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-1a1a1a?style=for-the-badge&logo=tensorflow&logoColor=00FF9C)
-![OpenCV](https://img.shields.io/badge/OpenCV-1a1a1a?style=for-the-badge&logo=opencv&logoColor=00FF9C)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1a1a1a?style=for-the-badge&logo=scikitlearn&logoColor=00FF9C)
-![FastAPI](https://img.shields.io/badge/FastAPI-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=00FF9C)
-![Docker](https://img.shields.io/badge/Docker-1a1a1a?style=for-the-badge&logo=docker&logoColor=00FF9C)
-![Git](https://img.shields.io/badge/Git-1a1a1a?style=for-the-badge&logo=git&logoColor=00FF9C)
+### `03 / SELECTED BUILDS`
 
-</div>
+| Project | What it does |
+| --- | --- |
+| [Ghost](https://github.com/Aromal-m-b/Ghost) | Audits distributed data stores and maps residual user data. |
+| [Tele-Caller](https://github.com/Aromal-m-b/Tele-Caller) | Voice support assistant with knowledge retrieval. |
+| [CityMind](https://github.com/Aromal-m-b/Smart-City-using-IOT) | Camera-based city monitoring with edge deployment. |
+| [Rasengana](https://github.com/Aromal-m-b/Rasengana) | Interactive ASL learning with gesture recognition. |
+| [Mugiwara](https://github.com/Aromal-m-b/Mugiwara) | Early learning screening with agentic assessment. |
+| [Pharma App](https://github.com/Aromal-m-b/Pharma-App) | Structured pharmaceutical complaint intake. |
 
-### `> ls ./focus-areas`
-
-| 🤖 Agentic AI | 👁️ Computer Vision | 🎙️ Voice Assistants | ⚙️ End-to-End ML |
-| :--- | :--- | :--- | :--- |
-| Autonomous, tool-using LLM agents | Detection, tracking & recognition | Speech-driven assistants | Data → model → deployment |
-
-### `> git log --contributions`
+### `04 / CONTRIBUTION SIGNAL`
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aromal-m-b/Aromal-m-b/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aromal-m-b/Aromal-m-b/output/github-snake.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Aromal-m-b/Aromal-m-b/output/github-snake-dark.svg" />
-</picture>
+![Contribution snake animation](https://raw.githubusercontent.com/Aromal-m-b/Aromal-m-b/output/github-snake-dark.svg#gh-dark-mode-only)
+![Contribution snake animation](https://raw.githubusercontent.com/Aromal-m-b/Aromal-m-b/output/github-snake.svg#gh-light-mode-only)
 
 </div>
 
-### `> stats`
+### `05 / FIND ME`
 
-<div align="center">
+[Portfolio](https://portfolio-delta-five-46.vercel.app/) &nbsp;·&nbsp; [GitHub](https://github.com/Aromal-m-b) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/aromal-mb/) &nbsp;·&nbsp; [Email](mailto:aromalmb1227@gmail.com)
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Aromal-m-b&show_icons=true&hide_border=true&bg_color=1a1a1a&title_color=00ff9c&icon_color=00ff9c&text_color=c9d1d9" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aromal-m-b&layout=compact&hide_border=true&bg_color=1a1a1a&title_color=00ff9c&text_color=c9d1d9" alt="Top languages" />
-
-</div>
-
-### `> contact`
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-1a1a1a?style=for-the-badge&logo=vercel&logoColor=00FF9C)](https://portfolio-delta-five-46.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-1a1a1a?style=for-the-badge&logo=github&logoColor=00FF9C)](https://github.com/Aromal-m-b)
-<!-- add LinkedIn / email here:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=00FF9C)](https://linkedin.com/in/YOUR-ID)
--->
-
-<br/>
-
-<!-- ───────────────  SIGNATURE  ─────────────── -->
-**[Aromal MB | AI/ML Engineer](https://portfolio-delta-five-46.vercel.app/)**
-
-<sub>*teaching machines to see, listen and think.*</sub>
-
-</div>
+<div align="center"><sub>BUILD / LEARN / REPEAT · KERALA, INDIA</sub></div>
