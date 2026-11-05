@@ -57,11 +57,11 @@ def build_svg(photo_b64, color):
   <g clip-path="url(#frame)">
     <!-- faint base image -->
     <image href="data:image/jpeg;base64,{photo_b64}" x="20" y="20" width="360" height="360"
-           preserveAspectRatio="xMidYMid slice" filter="url(#mono)" opacity="0.8"/>
+           preserveAspectRatio="xMidYMid slice" opacity="1"/>
     <!-- bright image, revealed by the scan -->
     <g clip-path="url(#reveal)">
       <image href="data:image/jpeg;base64,{photo_b64}" x="20" y="20" width="360" height="360"
-             preserveAspectRatio="xMidYMid slice" filter="url(#mono)"/>
+             preserveAspectRatio="xMidYMid slice"/>
     </g>
     <rect x="20" y="20" width="360" height="360" fill="url(#lines)"/>
 
