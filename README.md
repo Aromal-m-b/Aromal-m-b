@@ -1,29 +1,88 @@
-<h1 align="center">Hi 👋, I'm Aromal</h1>
-<h3 align="center">A learning AI Engineer</h3>
+<!-- ───────────────  HEADER  ─────────────── -->
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=aromal-m-b&label=Profile%20views&color=0e75b6&style=flat" alt="aromal-m-b" /> </p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=00FF9C&background=1A1A1A00&center=true&vCenter=true&width=640&lines=Hi%2C+I'm+Aromal+MB+%F0%9F%91%8B;AI+%2F+ML+Engineer+%E2%80%A2+Kerala%2C+India;Agentic+AI+%E2%80%A2+Computer+Vision+%E2%80%A2+Voice" alt="Typing intro" />
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aromal-m-b" alt="aromal-m-b" /></a> </p>
+<br/>
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+<img src="assets/scan-profile.svg" width="300" alt="Aromal MB - digital scan" />
 
-- 🔭 I’m currently working on [Trackmania AI](https://github.com/Aromal-m-b/TrackMania)
+<br/><br/>
 
-- 🌱 I’m currently learning **PyTorch**
+<a href="https://portfolio-delta-five-46.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-aromal--mb-00FF9C?style=for-the-badge&labelColor=1a1a1a" alt="Portfolio"/></a>
+<img src="https://komarev.com/ghpvc/?username=Aromal-m-b&label=PROFILE+VIEWS&color=00ff9c&style=for-the-badge&labelColor=1a1a1a" alt="Profile views"/>
 
-- 📫 How to reach me **aromalmb1227@gmail.com**
+</div>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/aromal-mb-1b2136255/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/aromal-mb-1b2136255/" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/https://leetcode.com/u/aromal_m_b/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/aromal_m_b/" height="30" width="40" /></a>
-</p>
+---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> </p>
+### `> whoami`
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aromal-m-b&show_icons=true&locale=en&layout=compact" alt="aromal-m-b" /></p>
+```text
+name      : Aromal MB
+role      : AI / ML Engineer
+location  : Kerala, India
+focus     : Agentic AI · Computer Vision · Voice Assistants · End-to-End ML
+status    : building things that see, listen and decide
+```
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aromal-m-b&show_icons=true&locale=en" alt="aromal-m-b" /></p>
+### `> stack --list`
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aromal-m-b&" alt="aromal-m-b" /></p>
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-1a1a1a?style=for-the-badge&logo=python&logoColor=00FF9C)
+![PyTorch](https://img.shields.io/badge/PyTorch-1a1a1a?style=for-the-badge&logo=pytorch&logoColor=00FF9C)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-1a1a1a?style=for-the-badge&logo=tensorflow&logoColor=00FF9C)
+![OpenCV](https://img.shields.io/badge/OpenCV-1a1a1a?style=for-the-badge&logo=opencv&logoColor=00FF9C)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1a1a1a?style=for-the-badge&logo=scikitlearn&logoColor=00FF9C)
+![FastAPI](https://img.shields.io/badge/FastAPI-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=00FF9C)
+![Docker](https://img.shields.io/badge/Docker-1a1a1a?style=for-the-badge&logo=docker&logoColor=00FF9C)
+![Git](https://img.shields.io/badge/Git-1a1a1a?style=for-the-badge&logo=git&logoColor=00FF9C)
+
+</div>
+
+### `> ls ./focus-areas`
+
+| 🤖 Agentic AI | 👁️ Computer Vision | 🎙️ Voice Assistants | ⚙️ End-to-End ML |
+| :--- | :--- | :--- | :--- |
+| Autonomous, tool-using LLM agents | Detection, tracking & recognition | Speech-driven assistants | Data → model → deployment |
+
+### `> git log --contributions`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aromal-m-b/Aromal-m-b/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aromal-m-b/Aromal-m-b/output/github-snake.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Aromal-m-b/Aromal-m-b/output/github-snake-dark.svg" />
+</picture>
+
+</div>
+
+### `> stats`
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Aromal-m-b&show_icons=true&hide_border=true&bg_color=1a1a1a&title_color=00ff9c&icon_color=00ff9c&text_color=c9d1d9" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aromal-m-b&layout=compact&hide_border=true&bg_color=1a1a1a&title_color=00ff9c&text_color=c9d1d9" alt="Top languages" />
+
+</div>
+
+### `> contact`
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-1a1a1a?style=for-the-badge&logo=vercel&logoColor=00FF9C)](https://portfolio-delta-five-46.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-1a1a1a?style=for-the-badge&logo=github&logoColor=00FF9C)](https://github.com/Aromal-m-b)
+<!-- add LinkedIn / email here:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=00FF9C)](https://linkedin.com/in/YOUR-ID)
+-->
+
+<br/>
+
+<!-- ───────────────  SIGNATURE  ─────────────── -->
+**[Aromal MB | AI/ML Engineer](https://portfolio-delta-five-46.vercel.app/)**
+
+<sub>*teaching machines to see, listen and think.*</sub>
+
+</div>
