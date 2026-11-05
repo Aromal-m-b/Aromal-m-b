@@ -2,7 +2,7 @@
 Turn your photo into an animated, single-colour "digital scan" SVG.
 
 Usage:
-    python make_scan.py my_photo.jpg            # -> assets/scan-profile.svg
+    python make_scan.py my_photo.jpg            # -> assets/scan-profile-portrait.svg
     python make_scan.py my_photo.jpg --color 00e5ff
 
 Needs:  pip install pillow
@@ -35,7 +35,7 @@ def build_svg(photo_b64, color):
     </filter>
 
     <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="1.5" fill="#000" opacity="0.45"/>
+      <rect width="4" height="1.5" fill="#000" opacity="0.25"/>
     </pattern>
 
     <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
@@ -57,7 +57,7 @@ def build_svg(photo_b64, color):
   <g clip-path="url(#frame)">
     <!-- faint base image -->
     <image href="data:image/jpeg;base64,{photo_b64}" x="20" y="20" width="360" height="360"
-           preserveAspectRatio="xMidYMid slice" filter="url(#mono)" opacity="0.22"/>
+           preserveAspectRatio="xMidYMid slice" filter="url(#mono)" opacity="0.8"/>
     <!-- bright image, revealed by the scan -->
     <g clip-path="url(#reveal)">
       <image href="data:image/jpeg;base64,{photo_b64}" x="20" y="20" width="360" height="360"
@@ -98,7 +98,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("photo")
     ap.add_argument("--color", default="ffb128", help="hex accent colour, no #")
-    ap.add_argument("--out", default="assets/scan-profile.svg")
+    ap.add_argument("--out", default="assets/scan-profile-portrait.svg")
     a = ap.parse_args()
 
     img = Image.open(a.photo).convert("RGB")

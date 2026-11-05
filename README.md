@@ -12,7 +12,7 @@
 <p><a href="https://portfolio-delta-five-46.vercel.app/">Portfolio</a> · <a href="https://github.com/Aromal-m-b">GitHub</a> · <a href="https://www.linkedin.com/in/aromal-mb/">LinkedIn</a></p>
 </td>
 <td width="32%" valign="middle" align="center">
-<img src="assets/scan-profile.svg" width="190" alt="Aromal MB — amber scan portrait" />
+<img src="assets/scan-profile-portrait.svg" width="190" alt="Aromal MB — amber scan portrait" />
 </td>
 </tr>
 </table>
