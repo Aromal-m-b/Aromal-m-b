@@ -115,7 +115,7 @@ def format_repository(repository: dict, now: datetime) -> str | None:
 
     language = markdown_escape(str(repository.get("language") or "Mixed stack"))
     stars = int(repository.get("stargazers_count") or 0)
-    description = str(repository.get("description") or "No description yet.").strip()
+    description = " ".join(str(repository.get("description") or "No description yet.").split())
     if len(description) > 150:
         description = description[:147].rstrip() + "…"
     description = markdown_escape(description)
@@ -125,6 +125,29 @@ def format_repository(repository: dict, now: datetime) -> str | None:
         f"- [**{markdown_escape(full_name.split('/', 1)[1])}**]({link})"
         f" · `{language}` · ⭐ {stars} · pushed {pushed_date} — {description}"
     )
+
+
+def event_signature(event: dict) -> tuple[str, ...]:
+    payload = event.get("payload") or {}
+    repository = (event.get("repo") or {}).get("name", "")
+    event_type = str(event.get("type") or "")
+    date = str(event.get("created_at") or "")[:10]
+
+    if event_type == "PushEvent":
+        return event_type, repository, date
+    if event_type == "PullRequestEvent":
+        pull_request = payload.get("pull_request") or {}
+        return event_type, repository, str(payload.get("action") or ""), str(pull_request.get("number") or "")
+    if event_type == "IssuesEvent":
+        issue = payload.get("issue") or {}
+        return event_type, repository, str(payload.get("action") or ""), str(issue.get("number") or "")
+    if event_type == "IssueCommentEvent":
+        issue = payload.get("issue") or {}
+        return event_type, repository, date, str(issue.get("number") or "")
+    if event_type == "ReleaseEvent":
+        release = payload.get("release") or {}
+        return event_type, repository, str(release.get("tag_name") or "")
+    return event_type, repository, str(event.get("id") or "")
 
 
 def replace_readme_block(start: str, end: str, lines: list[str]) -> None:
@@ -147,13 +170,13 @@ def main() -> int:
         return 1
 
     lines: list[str] = []
-    seen: set[str] = set()
+    seen: set[tuple[str, ...]] = set()
     for event in events:
         line = format_event(event)
-        event_id = str(event.get("id", ""))
-        if line and event_id not in seen:
+        signature = event_signature(event)
+        if line and signature not in seen:
             lines.append(line)
-            seen.add(event_id)
+            seen.add(signature)
         if len(lines) == 6:
             break
 
