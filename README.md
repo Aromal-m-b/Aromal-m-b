@@ -79,13 +79,23 @@ I’m an AI/ML Engineer with hands-on experience taking machine-learning work fr
 Public repositories with recent pushes, refreshed automatically every six hours.
 
 <!--START_SECTION:repos-->
-> Syncing recently pushed public repositories…
+- [**Leet-Code**](https://github.com/Aromal-m-b/Leet-Code) · `Python` · ⭐ 1 · pushed Nov 04, 2026 — a repository for challenging problems and solutions
+- [**Tele-Caller**](https://github.com/Aromal-m-b/Tele-Caller) · `Python` · ⭐ 0 · pushed Nov 03, 2026 — An autonomous Tele Calling assistant that assists with managing customer calls
+- [**portfolio**](https://github.com/Aromal-m-b/portfolio) · `JavaScript` · ⭐ 0 · pushed Oct 31, 2026 — Aromal MB's React portfolio — AI/ML, agentic AI, and computer vision
+- [**Spectrum-Machine-Test**](https://github.com/Aromal-m-b/Spectrum-Machine-Test) · `Jupyter Notebook` · ⭐ 0 · pushed Oct 29, 2026 — No description yet\.
+- [**Ghost**](https://github.com/Aromal-m-b/Ghost) · `Python` · ⭐ 0 · pushed Oct 26, 2026 — Ghost is an agentic data cleaner in the moder day systems we are using multiple records and datasets to keep the customer records which increases t…
+- [**Queens**](https://github.com/Aromal-m-b/Queens) · `TypeScript` · ⭐ 0 · pushed Oct 07, 2026 — No description yet\.
 <!--END_SECTION:repos-->
 
 ### `06 / RECENT PUBLIC ACTIVITY`
 
 <!--START_SECTION:activity-->
-> Syncing recent public activity…
+- `PUSH` · **1 commit** to [Aromal-m-b/Leet-Code](https://github.com/Aromal-m-b/Leet-Code) · Nov 02, 2026
+- `PUSH` · **1 commit** to [Aromal-m-b/Leet-Code](https://github.com/Aromal-m-b/Leet-Code) · Nov 01, 2026
+- `PUSH` · **1 commit** to [Aromal-m-b/Tele-Caller](https://github.com/Aromal-m-b/Tele-Caller) · Oct 31, 2026
+- `PUSH` · **1 commit** to [Aromal-m-b/Leet-Code](https://github.com/Aromal-m-b/Leet-Code) · Nov 01, 2026
+- `PUSH` · **1 commit** to [Aromal-m-b/Leet-Code](https://github.com/Aromal-m-b/Leet-Code) · Nov 01, 2026
+- `PUSH` · **1 commit** to [Aromal-m-b/Leet-Code](https://github.com/Aromal-m-b/Leet-Code) · Nov 01, 2026
 <!--END_SECTION:activity-->
 
 ### `07 / CONTRIBUTION SIGNAL`
