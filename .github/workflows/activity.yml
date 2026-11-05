@@ -1,4 +1,4 @@
-name: Refresh profile activity
+name: Refresh profile activity and repositories
 
 on:
   schedule:
@@ -18,7 +18,7 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v4
 
-      - name: Update recent public activity
+      - name: Update activity and recently pushed repositories
         run: python .github/scripts/update_activity.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

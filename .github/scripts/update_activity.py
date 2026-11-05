@@ -1,4 +1,4 @@
-"""Refresh the recent public GitHub activity block in the profile README."""
+"""Refresh recent public activity and recently pushed repositories in README."""
 
 from __future__ import annotations
 
@@ -6,7 +6,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -16,6 +16,13 @@ README = "README.md"
 START = "<!--START_SECTION:activity-->"
 END = "<!--END_SECTION:activity-->"
 EVENTS_URL = f"https://api.github.com/users/{USERNAME}/events/public?per_page=100"
+REPOS_URL = (
+    f"https://api.github.com/users/{USERNAME}/repos"
+    "?type=owner&sort=pushed&direction=desc&per_page=100"
+)
+REPOS_START = "<!--START_SECTION:repos-->"
+REPOS_END = "<!--END_SECTION:repos-->"
+REPO_LOOKBACK_DAYS = 120
 
 
 def markdown_escape(value: str) -> str:
@@ -73,7 +80,7 @@ def format_event(event: dict) -> str | None:
     return None
 
 
-def fetch_events() -> list[dict]:
+def fetch_json(url: str) -> list[dict]:
     headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": f"{USERNAME}-profile-readme",
@@ -82,25 +89,59 @@ def fetch_events() -> list[dict]:
     token = os.environ.get("GITHUB_TOKEN")
     if token:
         headers["Authorization"] = f"Bearer {token}"
-    request = Request(EVENTS_URL, headers=headers)
+    request = Request(url, headers=headers)
     with urlopen(request, timeout=20) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
-def update_readme(lines: list[str]) -> None:
+def format_repository(repository: dict, now: datetime) -> str | None:
+    full_name = str(repository.get("full_name") or "")
+    if not full_name.lower().startswith(f"{USERNAME.lower()}/"):
+        return None
+    if full_name.lower() == f"{USERNAME.lower()}/{USERNAME.lower()}":
+        return None
+    if repository.get("fork") or repository.get("archived") or repository.get("disabled"):
+        return None
+
+    pushed_at = repository.get("pushed_at")
+    if not pushed_at:
+        return None
+    try:
+        pushed = datetime.fromisoformat(pushed_at.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if pushed < now - timedelta(days=REPO_LOOKBACK_DAYS):
+        return None
+
+    language = markdown_escape(str(repository.get("language") or "Mixed stack"))
+    stars = int(repository.get("stargazers_count") or 0)
+    description = str(repository.get("description") or "No description yet.").strip()
+    if len(description) > 150:
+        description = description[:147].rstrip() + "…"
+    description = markdown_escape(description)
+    pushed_date = pushed.strftime("%b %d, %Y")
+    link = f"https://github.com/{full_name}"
+    return (
+        f"- [**{markdown_escape(full_name.split('/', 1)[1])}**]({link})"
+        f" · `{language}` · ⭐ {stars} · pushed {pushed_date} — {description}"
+    )
+
+
+def replace_readme_block(start: str, end: str, lines: list[str]) -> None:
     with open(README, "r", encoding="utf-8") as file:
         content = file.read()
-    pattern = re.compile(rf"{re.escape(START)}.*?{re.escape(END)}", re.DOTALL)
+    pattern = re.compile(rf"{re.escape(start)}.*?{re.escape(end)}", re.DOTALL)
     if not pattern.search(content):
-        raise ValueError("Activity markers are missing from README.md")
-    replacement = "\n".join([START, *lines, END])
+        raise ValueError(f"README markers are missing: {start} / {end}")
+    replacement = "\n".join([start, *lines, end])
     with open(README, "w", encoding="utf-8", newline="\n") as file:
         file.write(pattern.sub(lambda _: replacement, content, count=1))
 
 
 def main() -> int:
     try:
-        events = fetch_events()
+        events = fetch_json(EVENTS_URL)
+        repositories = fetch_json(REPOS_URL)
     except (HTTPError, URLError, TimeoutError) as error:
         print(f"Could not fetch public activity: {error}", file=sys.stderr)
         return 1
@@ -119,8 +160,27 @@ def main() -> int:
     if not lines:
         lines = [f"- No recent public events. [View GitHub activity](https://github.com/{USERNAME}?tab=activity)."]
 
-    update_readme(lines)
-    print(f"Updated README activity with {len(lines)} entries.")
+    repo_lines: list[str] = []
+    now = datetime.now(timezone.utc)
+    for repository in repositories:
+        line = format_repository(repository, now)
+        if line:
+            repo_lines.append(line)
+        if len(repo_lines) == 6:
+            break
+
+    if not repo_lines:
+        repo_lines = [
+            f"- No public repository pushes in the last {REPO_LOOKBACK_DAYS} days. "
+            f"[Browse repositories](https://github.com/{USERNAME}?tab=repositories)."
+        ]
+
+    replace_readme_block(START, END, lines)
+    replace_readme_block(REPOS_START, REPOS_END, repo_lines)
+    print(
+        f"Updated README activity with {len(lines)} entries and "
+        f"{len(repo_lines)} recently pushed repositories."
+    )
     return 0
 
 
